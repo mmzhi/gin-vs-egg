@@ -1,0 +1,21 @@
+{
+  "name": "egg",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "egg": {
+    "declarations": true
+  },
+  "dependencies": {
+    "egg": "^2",
+    "egg-scripts": "^2",
+    "egg-view-nunjucks": "^2.3.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "start": "egg-scripts start --title=egg-server-egg"
+  },
+  "author": ""
+}
